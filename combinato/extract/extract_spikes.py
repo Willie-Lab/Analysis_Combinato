@@ -1,7 +1,7 @@
 import numpy as np
 from .interpolate import clean, upsample, downsample, align
 
-options = dict([('threshold_factor', 5),        # 5
+options = dict([('threshold_factor', 6),        # 5 #higher threshold
                 ('max_spike_duration', 0.0015), # 0.0015 (seconds)
                 ('indices_per_spike', 64),      # 64
                 ('index_maximum', 19),          # 19

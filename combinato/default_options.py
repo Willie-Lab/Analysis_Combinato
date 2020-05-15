@@ -44,7 +44,7 @@ options = {
     'MaxDistMatchGrouping': 1.8,   # default 1.8
 
     # Folder names the GUI should include
-    'folder_patterns': ('CSC*', 'test', 'L??',
+    'folder_patterns': ('CSC*', 'test', 'L??','CH*', #so can see our files for css-gui
                         'R??', 'L???', 'R???', 'L????', 'R????',
                         'simulation_*'),
 
